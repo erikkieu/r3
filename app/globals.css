@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@layer base {
+  h1 {
+    @apply font-mono text-xl font-medium text-white xl:text-3xl 2xl:text-6xl;
+  }
+
+  h2 {
+    @apply font-mono text-lg font-medium text-white xl:text-2xl 2xl:text-4xl;
+  }
+
+  p {
+    @apply font-sans text-xs leading-relaxed text-white xl:text-sm 2xl:text-lg;
+  }
+
+  a {
+    @apply font-sans text-xs leading-relaxed text-white xl:text-sm 2xl:text-lg;
+  }
+
+  button {
+    @apply font-sans text-xs uppercase xl:text-xs 2xl:text-base;
+  }
+
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-blue-500;
+  }
+}
